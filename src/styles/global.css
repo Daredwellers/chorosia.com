@@ -19,6 +19,20 @@
         --color-bg-muted: 36 36 36; /* #242424 */
         --color-border-main: 242 241 236; /* #F2F1EC */
     }
+}
+
+@layer utilities {
+    .bg-main {
+        background-color: var(--color-bg-main);
+    }
+}
+
+@layer components {
+    .border-main {
+        border-color: var(--color-border-main);
+        border-width: 2px;
+    }
+}
 
     /* Cyan */
     /*
@@ -51,4 +65,3 @@
         --color-border-main: 243 239 230;
     }
     */
-}

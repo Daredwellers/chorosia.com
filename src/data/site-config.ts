@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Chorosia',
+    subtitle: 'Prog-Sludge from Vienna, AT',
+    description: 'Chorosia is a prog-sludge metal band from Vienna, Austria.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
+        alt: 'Chorosia // Stray Dogs OUT NOW!'
     },
     headerNavLinks: [
         {
@@ -51,15 +51,15 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Music',
             href: '/projects'
         },
         {
-            text: 'Blog',
+            text: 'News',
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'About',
             href: '/tags'
         }
     ],
@@ -76,31 +76,35 @@ const siteConfig: SiteConfig = {
             text: 'Terms',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        //    {
+        //        text: 'Download theme',
+        //        href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        //    }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Facebook',
+            href: 'https://www.facebook.com/chorosia/'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/chorosia.doom/'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'YouTube',
+            href: 'https://youtube.com/@chorosia/'
+        },
+        {
+            text: 'Bandcamp',
+            href: 'https://chorosia.bandcamp.com/'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        // title: ' ',
+        text: "We're a band from Vienna, Austria. We play prog-sludge. We're Chorosia.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
+            alt: 'Chorosia-2023-Photo-by-Martin-Ramisu'
         },
         actions: [
             {
@@ -110,8 +114,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Subscribe to Our Newsletter',
+        text: 'Subscribe to stay in touch. We only send emails once in a while.',
         formUrl: '#'
     },
     postsPerPage: 8,
