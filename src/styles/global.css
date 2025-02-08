@@ -6,6 +6,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .bg-main {
+        background-color: rgb(var(--color-bg-main));
+    }
+    .text-main {
+        color: rgb(var(--color-text-main));
+    }
+    .border-main {
+        border-color: rgb(var(--color-border-main));
+    }
+}
+
 @layer base {
     :root {
         --color-text-main: 23 23 23; /* #171717 */
@@ -37,7 +49,7 @@
     */
 
     /* Green */
-    /*
+    /* 
     :root {
         --color-text-main: 58 66 56;
         --color-bg-main: 243 239 230;
@@ -49,6 +61,6 @@
         --color-bg-main: 94 108 91;
         --color-bg-muted: 89 103 86;
         --color-border-main: 243 239 230;
-    }
-    */
+    }*/
+    
 }
