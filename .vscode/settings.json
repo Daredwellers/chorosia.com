@@ -18,10 +18,29 @@
     },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.fontSize": 14,
+        "editor.lineHeight": 26,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 64,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.minimap.enabled": false
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "files.associations": {
         "*.css": "tailwindcss",
-    }
+    },
+    "frontMatter.git.enabled": false,
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "chorosia.com",
+            "path": "[[workspace]]"
+        }
+    ],
+    "frontMatter.content.publicFolder": "public"
 }
