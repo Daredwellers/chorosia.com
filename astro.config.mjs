@@ -4,8 +4,10 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import markdownIntegration from '@astropub/md'
 
+
 // https://astro.build/config
 export default defineConfig({
+    trailingSlash: "ignore", // ✅ Forces removal of trailing slashes
     site: 'https://example.com',
     integrations: [
         mdx(),
