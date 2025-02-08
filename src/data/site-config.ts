@@ -24,7 +24,7 @@ export type Subscribe = {
 
 export type SiteConfig = {
     logo?: Image;
-    title: string | Image;
+    title: string;
     subtitle?: string;
     description: string;
     image?: Image;
@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Chorosia',
-    subtitle: 'Prog-Sludge from Vienna, AT founded 2017. ',
-    description: 'Chorosia is a prog-sludge metal band from Vienna, Austria.',
+    title: 'Dante',
+    subtitle: 'Minimal Astro.js theme',
+    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
-        src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
-        alt: 'Chorosia // Stray Dogs OUT NOW!'
+        src: '/dante-preview.jpg',
+        alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
         {
@@ -51,15 +51,15 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Music',
+            text: 'Projects',
             href: '/projects'
         },
         {
-            text: 'News',
+            text: 'Blog',
             href: '/blog'
         },
         {
-            text: 'About',
+            text: 'Tags',
             href: '/tags'
         }
     ],
@@ -76,35 +76,31 @@ const siteConfig: SiteConfig = {
             text: 'Terms',
             href: '/terms'
         },
-        //    {
-        //        text: 'Download theme',
-        //        href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        //    }
+        {
+            text: 'Download theme',
+            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        }
     ],
     socialLinks: [
         {
-            text: 'Facebook',
-            href: 'https://www.facebook.com/chorosia/'
+            text: 'Dribbble',
+            href: 'https://dribbble.com/'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/chorosia.doom/'
+            href: 'https://instagram.com/'
         },
         {
-            text: 'YouTube',
-            href: 'https://youtube.com/@chorosia/'
-        },
-        {
-            text: 'Bandcamp',
-            href: 'https://chorosia.bandcamp.com/'
+            text: 'X/Twitter',
+            href: 'https://twitter.com/'
         }
     ],
     hero: {
-        title: "About:",
-        text: "Chorosia is a prog/post-sludge metal band from Vienna, Austria. The band was founded in 2017 by Anto Pranjić (guitars/vocals), Florian Zeus (guitars), Christian Umkehrer (bass), and Gregory Reinig (drums). Already the following year, in May 2018, Chorosia independently released their first, self-titled, album which was welcomed with positive reviews by various underground music critics, some even naming it an honorable mention for the metal album of the year. After doing a number of local dates to promote the album which included playing before or after various well-known names such as Crowbar, Dopelord, Yob, Neurosis, Black Tusk, and the Skull and a self-booked 8-day tour through southern Europe in 2019, Chorosia released their sophomore studio effort entitled “A Call To Love” through Grazil Records. “A Call To Love” marked the band's departure from the traditional sludge sound into a more experimental ground. Combining elements of sludge, doom, grind, and even folk music, online critics often struggled to put a genre tag to the album. Instead, they praised it for its creativity, weirdness, and even strange beauty. The band’s third studio effort has been released once again via Grazil Records in collaboration with Kvlt und Kaos Productions. The 35-minute EP “Stray Dogs” deepens the experimental efforts and becomes a prog/post-sludge odyssey that pushes the envelope of the genre. Chorosia’s signature blend of intriguing instrumentation and growling vocals once again left the reviewers unable to place the album within one single genre. Instead, reviewers and magazines generally praised the raw power of this unique sounding record describing it as “vicious” and “disturbing in a good way”.",
+        title: 'Hi There & Welcome to My Corner of the Web!',
+        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
         image: {
-            src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
-            alt: 'Chorosia-2023-Photo-by-Martin-Ramisu'
+            src: '/hero.jpeg',
+            alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
@@ -114,8 +110,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to Our Newsletter',
-        text: 'Subscribe to stay in touch. We only send emails once in a while.',
+        title: 'Subscribe to Dante Newsletter',
+        text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },
     postsPerPage: 8,
