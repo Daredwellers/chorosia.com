@@ -9,35 +9,77 @@ module.exports = {
             serif: ['Newsreader Variable', ...defaultTheme.fontFamily.serif]
         },
         extend: {
-            colors: {
-                main: 'rgb(var(--color-text-main) / <alpha-value>)',
-                bgMain: 'rgb(var(--color-bg-main) / <alpha-value>)',
-                bgMuted: 'rgb(var(--color-bg-muted) / <alpha-value>)',
-                borderMain: 'rgb(var(--color-border-main) / <alpha-value>)'
+            textColor: {
+                main: 'rgb(var(--color-text-main) / <alpha-value>)'
+            },
+            backgroundColor: {
+                main: 'rgb(var(--color-bg-main) / <alpha-value>)',
+                muted: 'rgb(var(--color-bg-muted) / <alpha-value>)'
+            },
+            borderColor: {
+                main: 'rgb(var(--color-border-main) / <alpha-value>)'
             },
             typography: (theme) => ({
                 dante: {
                     css: {
-                        '--tw-prose-body': theme('colors.main'),
-                        '--tw-prose-headings': theme('colors.main'),
-                        '--tw-prose-lead': theme('colors.main'),
-                        '--tw-prose-links': theme('colors.main'),
-                        '--tw-prose-bold': theme('colors.main'),
-                        '--tw-prose-counters': theme('colors.main'),
-                        '--tw-prose-bullets': theme('colors.main'),
-                        '--tw-prose-hr': theme('colors.borderMain'),
-                        '--tw-prose-quotes': theme('colors.main'),
-                        '--tw-prose-quote-borders': theme('colors.borderMain'),
-                        '--tw-prose-captions': theme('colors.main'),
-                        '--tw-prose-code': theme('colors.main'),
+                        '--tw-prose-body': theme('textColor.main / 100%'),
+                        '--tw-prose-headings': theme('textColor.main / 100%'),
+                        '--tw-prose-lead': theme('textColor.main / 100%'),
+                        '--tw-prose-links': theme('textColor.main / 100%'),
+                        '--tw-prose-bold': theme('textColor.main / 100%'),
+                        '--tw-prose-counters': theme('textColor.main / 100%'),
+                        '--tw-prose-bullets': theme('textColor.main / 100%'),
+                        '--tw-prose-hr': theme('borderColor.main / 100%'),
+                        '--tw-prose-quotes': theme('textColor.main / 100%'),
+                        '--tw-prose-quote-borders': theme('borderColor.main / 100%'),
+                        '--tw-prose-captions': theme('textColor.main / 100%'),
+                        '--tw-prose-code': theme('textColor.main / 100%'),
                         '--tw-prose-pre-code': theme('colors.zinc.100'),
                         '--tw-prose-pre-bg': theme('colors.zinc.800'),
-                        '--tw-prose-th-borders': theme('colors.borderMain'),
-                        '--tw-prose-td-borders': theme('colors.borderMain')
+                        '--tw-prose-th-borders': theme('borderColor.main / 100%'),
+                        '--tw-prose-td-borders': theme('borderColor.main / 100%')
+                    }
+                },
+                DEFAULT: {
+                    css: {
+                        a: {
+                            fontWeight: 'normal',
+                            textDecoration: 'underline',
+                            textDecorationStyle: 'dashed',
+                            textDecorationThickness: '1px',
+                            textUnderlineOffset: '2px',
+                            '&:hover': {
+                                textDecorationStyle: 'solid'
+                            }
+                        },
+                        'h1,h2,h3,h4,h5,h6': {
+                            fontFamily: theme('fontFamily.serif'),
+                            fontWeight: 500
+                        },
+                        blockquote: {
+                            border: 0,
+                            fontFamily: theme('fontFamily.serif'),
+                            fontSize: '1.3125em',
+                            fontStyle: 'italic',
+                            fontWeight: 'normal',
+                            lineHeight: 1.4,
+                            paddingLeft: 0,
+                            '@media (min-width: theme("screens.sm"))': {
+                                fontSize: '1.66667em',
+                                lineHeight: 1.3
+                            }
+                        }
+                    }
+                },
+                lg: {
+                    css: {
+                        blockquote: {
+                            paddingLeft: 0
+                        }
                     }
                 }
             })
         }
     },
-    plugins: [require('@tailwindcss/typography')],
+    plugins: [require('@tailwindcss/typography')]
 };

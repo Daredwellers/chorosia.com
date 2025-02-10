@@ -7,6 +7,7 @@ import PostPreview from '../components/PostPreview.astro';
 import ProjectPreview from '../components/ProjectPreview.astro';
 import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
+import SongkickWidget from '../components/SongkickWidget.astro';
 
 const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
@@ -40,6 +41,14 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
                 <div class="mt-12 sm:mt-16">
                     <Button href="/blog">View More</Button>
                 </div>
+            </div>
+        )
+    }
+    {
+        (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Upcoming Dates</h2>
+                <SongkickWidget />
             </div>
         )
     }

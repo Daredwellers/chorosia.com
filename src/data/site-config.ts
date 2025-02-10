@@ -51,17 +51,17 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Albums',
             href: '/projects'
         },
         {
-            text: 'Blog',
+            text: 'News & Blog',
             href: '/blog'
         },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        //    {
+        //      text: 'Tags',
+        //    href: '/tags'
+        // }
     ],
     footerNavLinks: [
         {
@@ -72,27 +72,31 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        //  {
+        //      text: 'Terms',
+        //      href: '/terms'
+        //  },
+        //  {
+        //      text: 'Download theme',
+        //      href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        //  }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Facebook',
+            href: 'https://www.facebook.com/@chorosia'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/chorosia.doom'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Bandcamp',
+            href: 'https://chorosia.bandcamp.com/'
+        },
+        {
+            text: 'YouTube',
+            href: 'https://www.youtube.com/@chorosia'
         }
     ],
     hero: {
@@ -109,13 +113,13 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    //  subscribe: {
+    //       title: 'Subscribe to Dante Newsletter',
+    //      text: 'One update per week. All the latest posts directly in your inbox.',
+    //     formUrl: '#'
+    // },
+    postsPerPage: 1,
+    projectsPerPage: 4,
 };
 
 export default siteConfig;

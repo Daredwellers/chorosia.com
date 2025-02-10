@@ -1,0 +1,24 @@
+---
+const artistId = '9547889'; // Replace with your Songkick artist ID
+---
+
+<div class="tourbox-container bg-muted text-main p-6 rounded-lg">
+    <a
+        href={`https://www.songkick.com/artists/${artistId}`}
+        class="songkick-widget"
+        data-theme="dark"
+        data-track-button="on"
+        data-detect-style="on"
+        data-locale="en"
+        data-other-artists="on"
+        data-share-button="on"
+        data-country-filter="on"
+        data-rsvp="on"
+        data-request-show="on"
+        data-past-events="on"
+        data-past-events-offtour="off"
+        data-remind-me="off"
+        style="display: none;"></a>
+
+    <script src={`//widget-app.songkick.com/injector/${artistId}`}></script>
+</div>
