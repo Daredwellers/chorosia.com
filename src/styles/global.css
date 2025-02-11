@@ -64,3 +64,15 @@
     }*/
     
 }
+html {
+    --logo-color-light: #171717; /* Light mode logo color */
+    --logo-color-dark: #F2F1EC; /* Dark mode logo color */
+}
+
+.logo svg {
+    color: var(--logo-color-light);
+}
+
+html.dark .logo svg {
+    color: var(--logo-color-dark);
+}
