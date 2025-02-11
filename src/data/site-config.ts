@@ -51,27 +51,31 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Albums',
+            text: 'Music & Merch',
             href: '/projects'
         },
         {
             text: 'News & Blog',
             href: '/blog'
         },
-        //    {
-        //      text: 'Tags',
-        //    href: '/tags'
-        // }
+           {
+              text: 'About',
+            href: '/about'
+         },
+         {
+            text: 'Contact',
+          href: '/contact'
+       }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
+       // {
+      //      text: 'About',
+       //     href: '/about'
+       // },
+      //  {
+      //      text: 'Contact',
+      //      href: '/contact'
+      //  },
         //  {
         //      text: 'Terms',
         //      href: '/terms'
