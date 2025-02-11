@@ -5,15 +5,15 @@ seo:
   description: Get in touch! Book a gig, or write us a message.
 ---
 
-If a question or just want to share your thoughts, we're all ears. Feel free to get in touch through any of the methods below.
+If you have a question or just want to share your thoughts, we're all ears. Feel free to get in touch through any of the methods below.
 <br></br>
 
 **_General Email:_**
-Drop us an email at [chorosia.band@gmail.com](mailto:chorosia.band@gmail.com), and weI'll do our best to respond as soon as possible.
+Drop us an email at [chorosia.band@gmail.com](mailto:chorosia.band@gmail.com). We'll do our best to respond as soon as possible.
 <br></br>
 
 **_Booking:_**
-All the booking inquires please use [booking@chorosia.com](mailto:booking@chorosia.com).
+All the booking inquires, please use [booking@chorosia.com](mailto:booking@chorosia.com).
 <br></br>
 
 **_Label Management:_**
