@@ -34,13 +34,5 @@
     "typescript.tsdk": "node_modules/typescript/lib",
     "files.associations": {
         "*.css": "tailwindcss",
-    },
-    "frontMatter.git.enabled": false,
-    "frontMatter.content.pageFolders": [
-        {
-            "title": "chorosia.com",
-            "path": "[[workspace]]"
-        }
-    ],
-    "frontMatter.content.publicFolder": "public"
+    }
 }
