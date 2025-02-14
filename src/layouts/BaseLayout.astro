@@ -15,7 +15,7 @@ const { showHeader = true, ...head } = Astro.props;
     <head>
         <BaseHead {...head} />
         <!-- Google Tag Manager -->
-        <script type="text/partytown">
+        <script data-astro-exec="beforeInteractive">
             (function (w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -29,14 +29,13 @@ const { showHeader = true, ...head } = Astro.props;
         </script>
         <!-- End Google Tag Manager -->
         <!-- Google tag (gtag.js) -->
-        <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-8GZKL7WJR7"></script>
-        <script type="text/partytown">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GZKL7WJR7" data-astro-exec="beforeInteractive"></script>
+        <script data-astro-exec="beforeInteractive">
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
             }
             gtag('js', new Date());
-
             gtag('config', 'G-8GZKL7WJR7');
         </script>
         <script>
