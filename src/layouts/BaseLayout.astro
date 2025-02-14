@@ -13,31 +13,6 @@ const { showHeader = true, ...head } = Astro.props;
 <!doctype html>
 <html lang="en" class="antialiased break-words">
     <head>
-        <!-- Google Tag Manager -->
-        <script type="text/partytown">
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-5RT8TXWW');
-        </script>
-        <!-- End Google Tag Manager -->
-        <!-- Google tag (gtag.js) -->
-        <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-8GZKL7WJR7"></script>
-        <script type="text/partytown">
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'G-8GZKL7WJR7');
-        </script>
         <BaseHead {...head} />
         <script>
             if (localStorage.theme === 'dark') {
@@ -47,12 +22,6 @@ const { showHeader = true, ...head } = Astro.props;
         <ClientRouter />
     </head>
     <body class="bg-main text-main">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript
-            ><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RT8TXWW" height="0" width="0" style="display:none;visibility:hidden"
-            ></iframe></noscript
-        >
-        <!-- End Google Tag Manager (noscript) -->
         <div class="flex flex-col min-h-screen px-4 md:px-8">
             <Nav />
             <!--       {showHeader && <Header />} -->
