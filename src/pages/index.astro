@@ -12,6 +12,7 @@ import MerchButton1 from '../components/MerchButton1.astro';
 import MerchButton2 from '../components/MerchButton2.astro';
 import MerchButton3 from '../components/MerchButton3.astro';
 import MerchButton4 from '../components/MerchButton4.astro';
+import Subscribe from '../components/Subscribe.astro';
 
 const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
@@ -74,4 +75,5 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
             </div>
         )
     }
+    <Subscribe />
 </BaseLayout>
