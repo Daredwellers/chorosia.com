@@ -119,7 +119,7 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         title: 'Subscribe to Our Newsletter',
-        text: 'We send emails only once in a while.',
+        text: 'We only send emails once in a while.',
         formUrl: '#'
     },
     postsPerPage: 4,
