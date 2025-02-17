@@ -1,7 +1,7 @@
 ---
 title: Hello, world, Chorosia.com here!
 excerpt: If you're reading this, congratulations! You've made it to the official website of the band Chorosia. Here's a quick update from us.
-publishDate: 'Feb 14 2025'
+publishDate: 'Feb 17 2025'
 isFeatured: true
 tags:
   - Chorosia
