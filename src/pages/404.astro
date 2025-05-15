@@ -3,15 +3,13 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import siteConfig from '../data/site-config';
 import Button from '../components/Button.astro';
-
-const { '404': unmatchedPath } = Astro.params;
 ---
 
 <BaseLayout description="Page not found" image={siteConfig.image}>
     <div class="flex flex-col items-center justify-center text-left sm:flex-row sm:text-left">
         <!-- Left Section: Image -->
         <div class="flex-1 flex items-center justify-center">
-            <img src="/images/Anunnaki.svg" alt="Anunnaki illustration" />
+            <img src="/images/Anunnaki.svg" alt="Anunnaki illustration" class="w-2/3 max-w-xs sm:w-full" />
         </div>
 
         <!-- Right Section: Text -->
