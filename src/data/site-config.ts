@@ -46,9 +46,13 @@ const siteConfig: SiteConfig = {
         alt: 'Chorosia'
     },
     headerNavLinks: [
-        {
-            text: 'Home',
-            href: '/'
+  //      {
+  //          text: 'Home',
+  //          href: '/'
+   //     },
+                {
+            text: 'Live Dates',
+            href: '/tour'
         },
         {
             text: 'Music & Merch',
@@ -61,7 +65,7 @@ const siteConfig: SiteConfig = {
         {
             text: 'About',
             href: '/about'
-        },
+      },
         {
             text: 'Contact',
             href: '/contact'

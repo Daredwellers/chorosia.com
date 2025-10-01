@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import siteConfig from '../data/site-config';
+import SongkickWidget from '../components/SongkickWidget.astro';
+import ContactForm from '../components/ContactForm.astro';
+---
+
+<BaseLayout description={siteConfig.description} image={siteConfig.image}>
+    {
+        (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-3xl font-serif italic sm:text-3xl">Upcoming Dates</h2>
+                <SongkickWidget />
+            </div>
+        )
+    }
+    <div class="flex-1 flex flex-col items-center sm:items-start">
+        <h2 class="mb-12 text-3xl font-serif italic sm:text-3xl">Contact Us:</h2>
+        <p class="mb-8 text-lg text-muted">
+            For booking inquiries, please write to <a href="mailto:booking@chorosia.com" class="underline">booking(at)chorosia.com</a> or use the form below.
+        </p>
+    </div>
+
+    <ContactForm />
+</BaseLayout>
