@@ -5,23 +5,27 @@ import Button from '../components/Button.astro';
 import siteConfig from '../data/site-config';
 ---
 
-<BaseLayout description="Page not found" image={siteConfig.image}>
-    <div class="flex flex-col items-center justify-center text-left sm:flex-row sm:text-left">
-        <!-- Left Section: Image -->
-        <div class="flex-1 flex items-center justify-center">
-            <img src="/images/flame.svg" alt="Anunnaki illustration" class="w-2/3 max-w-xs sm:w-full" />
-        </div>
+<BaseLayout
+    description="Chorosia Hot Sauce"
+    image={siteConfig.image}
+    title="Sauce It Up!"
+    description="Thanks for buying our hot sauce!"
+    image={{ src: '/images/fa-hot-sauce-label.svg', alt: 'The preview of the site' }}
+    showHeader={false}
+>
+    <div class="items-center justify-center text-center">
+        <h1 class="font-serif italic text-5xl text-[#b26750]">Thanks for buying our <br /> hot sauce!</h1>
+        <a href="https://store.chorosia.com/discount/HAWT-SAWCE" target="_blank" rel="noopener">
+            <img src="/images/fa-hot-sauce-label.svg" alt="Chorosia Fire Assault" class="w-3/4 mx-auto" />
+        </a>
 
-        <!-- Right Section: Text -->
-        <div class="flex-1 flex flex-col items-center sm:items-start">
-            <h2 class="mb-12 text-3xl font-serif italic sm:text-3xl text-[#b26750]">Thanks for buying our <br /> hot sauce!</h2>
-            <p class="mb-8 text-lg text-muted">
-                In case you'd like to spend more money on our stuff, here's a 35% discount on all merch in our store: <a
-                    href="https://store.chorosia.com/discount/HAWT-SAWCE"
-                    class="underline font-bold">HAWT-SAWCE</a
-                >
-            </p>
-            <Button href="https://store.chorosia.com/discount/HAWT-SAWCE" download> Visit Store </Button>
-        </div>
+        <p class="mb-8 text-lg text-muted">
+            In case you'd like to spend more money on our stuff, here's a 35% discount on all merch in our store: <a
+                href="https://store.chorosia.com/discount/HAWT-SAWCE"
+                class="underline font-bold">HAWT-SAWCE</a
+            >
+        </p>
+
+        <Button href="https://store.chorosia.com/discount/HAWT-SAWCE" download> Visit Store </Button>
     </div>
 </BaseLayout>

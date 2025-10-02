@@ -5,7 +5,14 @@ import siteConfig from '../data/site-config';
 import Button from '../components/Button.astro';
 ---
 
-<BaseLayout description="Page not found" image={siteConfig.image}>
+<BaseLayout
+    description="Page Not Found"
+    image={siteConfig.image}
+    title="Page Not Found"
+    description="The page you're looking for is not here."
+    image={{ src: '/images/Anunnaki.svg', alt: 'The preview of the site' }}
+    showHeader={false}
+>
     <div class="flex flex-col items-center justify-center text-left sm:flex-row sm:text-left">
         <!-- Left Section: Image -->
         <div class="flex-1 flex items-center justify-center">
