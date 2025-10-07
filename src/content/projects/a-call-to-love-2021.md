@@ -18,6 +18,6 @@ Similar to "Chorosia" 3 years prior, "A Call To Love" was recorded, mixed, and m
 
 Cover art was done by our friend Oliver Haidutschek, a renowned artist known for his mind-bending digital art. Driven purely by the sound and his imagination, without any creative interference from the band.
 
-Physical copies are available in the form of CDs and audio cassettes. 
+Physical copies are available in the form of CDs and audio cassettes.
 
 <iframe style="border: 0; width: 400px; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=1167625178/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/a-call-to-love">A Call To Love by Chorosia</a></iframe>

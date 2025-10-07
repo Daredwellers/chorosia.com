@@ -98,10 +98,10 @@ const siteConfig: SiteConfig = {
             text: 'Instagram',
             href: 'https://www.instagram.com/chorosia.doom'
         },
-        {
-            text: 'Bandcamp',
-            href: 'https://chorosia.bandcamp.com/'
-        },
+ //       {
+ //           text: 'Bandcamp',
+//           href: 'https://chorosia.bandcamp.com/'
+ //       },
         {
             text: 'YouTube',
             href: 'https://www.youtube.com/@chorosia'
@@ -109,7 +109,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         //   title: 'Chorosia',
-        text: "Is it progressive sludge? Is it death/doom? To many, it's unclear what genre niche we belong to but one thing is certain — it's heavy, both sonically and emotionally. Since our foundation in 2017, we've been pushing the envelope of this vaguely described genre called progressive sludge album after album, gig after gig. Think of caveman riffs but the caveman just became self-aware. Essentially, we play the music we want to hear. Iommosphere is where we dwell.",
+        text: "Is it progressive sludge? Is it death/doom? It's quite unclear what genre niche we belong to but it sure is heavy. Since our foundation in 2017, we've been pushing the envelope of this vaguely described genre called progressive sludge, album after album, gig after gig. Think caveman riffs, but the caveman has just become self-aware. We play the music we want to hear. Iommosphere is where we dwell.",
         image: {
             src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
             alt: 'Chorosia photo by Martin Ramisu'
