@@ -1,8 +1,8 @@
 ---
 title: The Bold Idea of Touring
 excerpt: We're heading out with our buddies Thosar next month. Also, a quick update from the studio.
-publishDate: 'Sep 10 2025'
-isFeatured: true
+publishDate: 2025-09-10
+isFeatured: false
 tags:
   - Chorosia
   - Thosar

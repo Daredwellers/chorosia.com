@@ -18,4 +18,10 @@ Cover art was done by none other than the great Orion Landau, known for his prev
 
 "Stray Dogs" is available on vinyl, CDs, and cassettes.
 
-<iframe style="border: 0; width: 400px; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=1621621126/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/stray-dogs">Stray Dogs by Chorosia</a></iframe>
+<div class="flex justify-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j8a4l41Rc44?si=tnV1VB5sHRg7mZKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<div class="flex justify-center">
+<iframe style="border: 0; width: 560px; height: 467px;" src="https://bandcamp.com/EmbeddedPlayer/album=1621621126/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/stray-dogs">Stray Dogs by Chorosia</a></iframe>
+</div>

@@ -18,4 +18,6 @@ The cover art was done by our friend Maxim Shchapov and it beautifully represent
 
 Yet to be published on vinyl, the physical copies are only available on CDs.
 
-<iframe style="border: 0; width: 400px; height: 406px; position: center;" src="https://bandcamp.com/EmbeddedPlayer/album=3591053956/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/chorosia">Chorosia by Chorosia</a></iframe>
+<div class="flex justify-center">
+<iframe style="border: 0; width: 560px; height: 467px;" position: center;" src="https://bandcamp.com/EmbeddedPlayer/album=3591053956/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/chorosia">Chorosia by Chorosia</a></iframe>
+</div>

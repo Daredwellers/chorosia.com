@@ -10,10 +10,17 @@ seo:
 
 ![Project preview](/audio.manufaktur-2022-cover-art.jpg)
 
-After releasing "A Call To Love" and still not being able to embark on a proper tour in 2021, we decided to film and record a live session to present our new songs to a wider audience. Practically titled "audio.manufaktur Live Session" comprises of 4 songs, 3 of which from the most recent album at the time. 
+After releasing "A Call To Love" and still not being able to embark on a proper tour in 2021, we decided to film and record a live session to present our new songs to a wider audience. Practically titled "audio.manufaktur Live Session" comprises of 4 songs, 3 of which from the most recent album at the time.
 
-Recorded live at audio.manufaktur Vienna and filmed by Lukas Rosatti and Elias Eisner on September 25, 2021. Cover art DIY. 
+Recorded live at audio.manufaktur Vienna and filmed by Lukas Rosatti and Elias Eisner on September 25, 2021. Cover art DIY.
 
-Available only in digital form. 
+Available only in digital form.
 
-<iframe style="border: 0; width: 400px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3967995575/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/audio-manufaktur-live-session">audio.manufaktur Live Session by Chorosia</a></iframe>
+<div class="flex justify-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/glNsuGBMGJ0?si=gfnHL1kumPCMH_sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<div class="flex justify-center">
+
+<iframe style="border: 0; width: 560px; height: 467px;" src="https://bandcamp.com/EmbeddedPlayer/album=3967995575/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/audio-manufaktur-live-session">audio.manufaktur Live Session by Chorosia</a></iframe>
+</div>

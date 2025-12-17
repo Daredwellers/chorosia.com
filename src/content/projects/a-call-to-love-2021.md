@@ -20,4 +20,7 @@ Cover art was done by our friend Oliver Haidutschek, a renowned artist known for
 
 Physical copies are available in the form of CDs and audio cassettes.
 
-<iframe style="border: 0; width: 400px; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=1167625178/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/a-call-to-love">A Call To Love by Chorosia</a></iframe>
+<div class="flex justify-center">
+
+<iframe style="border: 0; width: 560px; height: 467px;" src="https://bandcamp.com/EmbeddedPlayer/album=1167625178/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/a-call-to-love">A Call To Love by Chorosia</a></iframe>
+</div>
