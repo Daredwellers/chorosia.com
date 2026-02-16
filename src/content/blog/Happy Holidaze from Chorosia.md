@@ -2,7 +2,7 @@
 title: Happy Holidaze from Chorosia!
 excerpt: 2025 has been a wild one, here's to an even better 2026!
 publishDate: 'Dec 17 2025'
-isFeatured: true
+isFeatured: false
 tags:
   - Chorosia
   - XMAS
@@ -10,10 +10,10 @@ tags:
 seo:
   image:
     src: '/Chorosia-Holidaze-Priestess.png'
-    alt: Thosar & Chorosia Oct2025 Tour Poster
+    alt: Priestess of Christmas
 ---
 
-![Thosar & Chorosia Oct2025 Tour Poster](/Chorosia-Holidaze-Priestess.png)
+![Priestess of Christmas](/Chorosia-Holidaze-Priestess.png)
 Hey gang,
 
 Hope you’re all doing great out there!
@@ -32,7 +32,7 @@ Just last weekend, we had our annual Christmas dinner, our little get-together w
 - Abraham - IDSUNGWÜSSÄ
 - In the Company of Serpents - A Crack in Everything
 - Revocation - New Gods, New Masters
-- La Dispute -No One Was Driving The Car
+- La Dispute - No One Was Driving The Car
 - Maruja - Pain to Power
 - Igorrr - Amen
 - Our Oceans - Untamed
