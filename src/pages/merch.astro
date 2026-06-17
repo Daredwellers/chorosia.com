@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/Button.astro';
+import MerchButton1 from '../components/MerchButton-Hellhound-TShirt.astro';
+import MerchButton2 from '../components/MerchButton-Wolf-Hoodie.astro';
+import MerchButton3 from '../components/MerchButton-Wolf-TShirt.astro';
+import MerchButton4 from '../components/MerchButton-Hellhound-TShirt-CreamWhite.astro';
+import MerchButton5 from '../components/MerchButton-StrayDogs-Vinyl.astro';
+import MerchButton6 from '../components/MerchButton-ACallToLove-CD.astro';
+---
+
+<BaseLayout
+    title="Merch"
+    description="Chorosia merch — vinyl, CDs, cassettes, shirts, and more."
+    image={{ src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg', alt: 'Chorosia' }}
+    showHeader={false}
+>
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">
+        <a href="https://store.chorosia.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:underline-offset-2 hover:decoration-1"
+            >Merch Store</a
+        >
+    </h1>
+
+    <div class="merch">
+        <MerchButton5 />
+        <MerchButton6 />
+        <MerchButton1 />
+        <MerchButton2 />
+        <MerchButton3 />
+        <MerchButton4 />
+    </div>
+
+    <div class="mt-12 sm:mt-16">
+        <Button href="https://store.chorosia.com" target="_blank" rel="noopener noreferrer"> Visit the Full Store </Button>
+    </div>
+</BaseLayout>

@@ -13,12 +13,12 @@ seo:
     alt: Thosar & Chorosia Oct2025 Tour Poster
 ---
 
-![Thosar & Chorosia Oct2025 Tour Poster](/Work-in-Progress.png)
+![Greg in our new room](/Work-in-Progress.png)
 Hey gang,
 
 So it happened again. We’ve been kicked out of our rehearsal room right in the middle of an album recording process. Again. Yeah.
 
-This almost feels like 2020 again, when we were recording “<a href="https://chorosia.com/projects/a-call-to-love-2021/" target="_blank">A Call To Love</a>” and neighbors complained so much about the volume that the poor landlord had no other option but to kick us out. We haven’t even started with the guitars, but it was impossible for us to stay there. Honestly, we didn’t think the drum takes were THAT bad, but okay – the senior connesiours have spoken.
+This almost feels like 2020 again, when we were recording “<a href="https://chorosia.com/projects/a-call-to-love-2021/" target="_blank">A Call To Love</a>” and neighbors complained so much about the volume that the poor landlord had no other option but to kick us out. We hadn't even started with the guitars, but it was impossible for us to stay there. Honestly, we didn’t think the drum takes were THAT bad, but okay – the senior connesiours have spoken.
 
 So yes, it kinda feels like that all over again, thankfully without the global pandemic this time. This time, however, we’re pretty glad it’s happening. We wanted to have our own place for a while now and this was just the kick in the butt we needed. There’s nothing wrong with sharing your rehearsal space with other people, but having your own room means more flexibility, more rehearsals, more recording, more songs, more albums, more goodness. We daydreamed about this for awhile and now it’s here. World peace at last.
 

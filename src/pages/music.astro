@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
+---
+
+<BaseLayout
+    title="Music"
+    description="Chorosia discography — progressive sludge / death doom from Vienna."
+    image={{ src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg', alt: 'Chorosia' }}
+    showHeader={false}
+>
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Releases</h1>
+
+    <div class="flex flex-col gap-8">
+        {projects.map((project) => {
+            const coverSrc = project.data.seo?.image?.src;
+            return (
+                <div class="flex gap-6 items-stretch">
+                    {coverSrc && (
+                        <a href={`/projects/${project.id}/`} class="group shrink-0 w-32 sm:w-44">
+                            <img
+                                src={`/${coverSrc}`}
+                                alt={project.data.title}
+                                class="w-full h-full object-cover rounded-lg"
+                            />
+                        </a>
+                    )}
+                    <div class="flex flex-col justify-center">
+                        <a href={`/projects/${project.id}/`} class="group">
+                            <h2 class="text-xl font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl">
+                                {project.data.title}
+                            </h2>
+                        </a>
+                        {project.data.description && (
+                            <p class="mt-2 text-sm leading-normal text-muted">{project.data.description}</p>
+                        )}
+                    </div>
+                </div>
+            );
+        })}
+    </div>
+</BaseLayout>

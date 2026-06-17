@@ -16,11 +16,8 @@ Recorded live at audio.manufaktur Vienna and filmed by Lukas Rosatti and Elias E
 
 Available only in digital form.
 
-<div class="flex justify-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/glNsuGBMGJ0?si=gfnHL1kumPCMH_sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="aspect-video w-full">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/glNsuGBMGJ0?si=gfnHL1kumPCMH_sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <br>
-<div class="flex justify-center">
-
-<iframe style="border: 0; width: 560px; height: 467px;" src="https://bandcamp.com/EmbeddedPlayer/album=3967995575/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/audio-manufaktur-live-session">audio.manufaktur Live Session by Chorosia</a></iframe>
-</div>
+<iframe style="border: 0; width: 100%; height: 467px;" src="https://bandcamp.com/EmbeddedPlayer/album=3967995575/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://chorosia.bandcamp.com/album/audio-manufaktur-live-session">audio.manufaktur Live Session by Chorosia</a></iframe>

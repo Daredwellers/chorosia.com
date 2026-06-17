@@ -8,10 +8,10 @@ import ProjectPreview from '../components/ProjectPreview.astro';
 import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 import SongkickWidget from '../components/SongkickWidget.astro';
-import MerchButton1 from '../components/MerchButton1.astro';
-import MerchButton2 from '../components/MerchButton2.astro';
-import MerchButton3 from '../components/MerchButton3.astro';
-import MerchButton4 from '../components/MerchButton4.astro';
+import MerchButton1 from '../components/MerchButton-Hellhound-TShirt.astro';
+import MerchButton2 from '../components/MerchButton-Wolf-Hoodie.astro';
+import MerchButton3 from '../components/MerchButton-Wolf-TShirt.astro';
+import MerchButton4 from '../components/MerchButton-Hellhound-TShirt-CreamWhite.astro';
 import Subscribe from '../components/Subscribe.astro';
 
 const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
@@ -39,12 +39,12 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Albums</h2>
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Releases</h2>
                 {featuredProjects.map((project) => (
                     <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
                 <div class="mt-12 sm:mt-16">
-                    <Button href="/projects">View All Albums</Button>
+                    <Button href="/music">View All Releases</Button>
                 </div>
             </div>
         )
@@ -60,7 +60,9 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Visit our Merch Store</h2>
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">
+                    <a href="https://store.chorosia.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:underline-offset-2 hover:decoration-1">Visit our Merch Store</a>
+                </h2>
                 <div class="merch">
                     <MerchButton1 />
                     <MerchButton2 />

@@ -6,10 +6,10 @@ import Pagination from '../../components/Pagination.astro';
 import ProjectPreview from '../../components/ProjectPreview.astro';
 import siteConfig from '../../data/site-config';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
-import MerchButton1 from '../../components/MerchButton1.astro';
-import MerchButton2 from '../../components/MerchButton2.astro';
-import MerchButton3 from '../../components/MerchButton3.astro';
-import MerchButton4 from '../../components/MerchButton4.astro';
+import MerchButton1 from '../../components/MerchButton-Hellhound-TShirt.astro';
+import MerchButton2 from '../../components/MerchButton-Wolf-Hoodie.astro';
+import MerchButton3 from '../../components/MerchButton-Wolf-TShirt.astro';
+import MerchButton4 from '../../components/MerchButton-Hellhound-TShirt-CreamWhite.astro';
 import Button from '../../components/Button.astro';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
@@ -24,12 +24,12 @@ const portfolio = page.data;
 ---
 
 <BaseLayout
-    title="Portfolio"
-    description="Explore our music, art, merch, and more!"
-    image={{ src: '/dante-preview.jpg', alt: 'The preview of the site' }}
+    title="Music & Merch"
+    description="Chorosia discography — progressive sludge / death doom from Vienna. Records, merch, and more."
+    image={{ src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg', alt: 'Chorosia' }}
     showHeader={false}
 >
-    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Albums</h1>
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Releases</h1>
     {portfolio.map((project) => <ProjectPreview project={project} class="mb-10 sm:mb-12" />)}
 
     {

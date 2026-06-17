@@ -55,8 +55,12 @@ const siteConfig: SiteConfig = {
             href: '/tour'
         },
         {
-            text: 'Music & Merch',
-            href: '/projects'
+            text: 'Music',
+            href: '/music'
+        },
+        {
+            text: 'Merch',
+            href: '/merch'
         },
         {
             text: 'News & Blog',
@@ -98,13 +102,17 @@ const siteConfig: SiteConfig = {
             text: 'Instagram',
             href: 'https://www.instagram.com/chorosia.doom'
         },
- //       {
- //           text: 'Bandcamp',
-//           href: 'https://chorosia.bandcamp.com/'
- //       },
+        {
+            text: 'Bandcamp',
+            href: 'https://chorosia.bandcamp.com/'
+        },
         {
             text: 'YouTube',
             href: 'https://www.youtube.com/@chorosia'
+        },
+        {
+            text: 'Spotify',
+            href: 'https://open.spotify.com/artist/6sPtYovsQvwBmtHvVQ4M58'
         }
     ],
     hero: {

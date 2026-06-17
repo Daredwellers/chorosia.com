@@ -1,12 +1,13 @@
 ---
 import siteConfig from '../data/site-config';
+import SocialIcon from '../icons/SocialIcon.astro';
 
 const socialLinks = siteConfig.socialLinks || [];
 const navLinks = siteConfig.footerNavLinks || [];
 ---
 
 <footer class="w-full max-w-3xl mx-auto pt-12 pb-10 sm:pt-24 sm:pb-14">
-    <div style="color:gray; font-size: 12px">Welcome to the Iommosphere.</div>
+    <div style="color:gray; font-size: 12px">New album when?</div>
     {
         navLinks.length > 0 && (
             <div class="mb-4 flex flex-wrap gap-x-6 gap-y-1">
@@ -26,15 +27,16 @@ const navLinks = siteConfig.footerNavLinks || [];
     >
         {
             socialLinks.length > 0 && (
-                <div class="flex flex-wrap gap-x-4 gap-y-1">
+                <div class="flex flex-wrap gap-x-5 gap-y-2 items-center">
                     {socialLinks.map((link) => (
                         <a
-                            class="inline-flex items-center justify-center text-sm hover:underline hover:underline-offset-2"
                             href={link.href}
                             target="_blank"
-                            rel="noopener noreferer"
+                            rel="noopener noreferrer"
+                            aria-label={link.text}
+                            class="text-main opacity-60 hover:opacity-100 transition-opacity"
                         >
-                            {link.text}
+                            <SocialIcon name={link.text} width={20} height={20} />
                         </a>
                     ))}
                 </div>
