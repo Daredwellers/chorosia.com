@@ -8,7 +8,7 @@ import markdownIntegration from '@astropub/md'
 // https://astro.build/config
 export default defineConfig({
     trailingSlash: "ignore", // ✅ Forces removal of trailing slashes
-    site: 'https://example.com',
+    site: 'https://chorosia.com',
     integrations: [
         mdx(),
         sitemap(),
