@@ -42,8 +42,8 @@ const siteConfig: SiteConfig = {
     subtitle: 'Discharging decibels since 2017.',
     description: 'Chorosia is a progressive sludge metal band from Vienna, Austria.',
     image: {
-        src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
-        alt: 'Chorosia'
+        src: '/Website-Hero.webp',
+        alt: 'Chorosia Live Shot 2025'
     },
     headerNavLinks: [
   //      {
@@ -117,10 +117,10 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         //   title: 'Chorosia',
-        text: "Is it progressive sludge? Is it death/doom? It's quite unclear what genre niche we belong to but it sure is heavy. Since our foundation in 2017, we've been pushing the envelope of this vaguely described genre called progressive sludge, album after album, gig after gig. Think caveman riffs, but the caveman has just become self-aware. We play the music we want to hear. Iommosphere is where we dwell.",
+        text: "Is it progressive sludge? Is it death/doom? It's quite unclear what genre niche we belong to but it sure is heavy. Think caveman riffs, but the caveman has just become self-aware. We play the music we want to hear. Iommosphere is where we dwell.",
         image: {
-            src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg',
-            alt: 'Chorosia photo by Martin Ramisu'
+            src: '/Website-Hero.webp',
+            alt: 'Chorosia Live Shot 2025'
         },
         actions: [
             {

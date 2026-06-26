@@ -24,19 +24,6 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
     {
-        featuredPosts?.length > 0 && (
-            <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">News and Blog</h2>
-                {featuredPosts.map((post) => (
-                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
-                ))}
-                <div class="mt-12 sm:mt-16">
-                    <Button href="/blog">View More</Button>
-                </div>
-            </div>
-        )
-    }
-    {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
                 <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Releases</h2>
@@ -61,7 +48,14 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
         (
             <div class="mb-16 sm:mb-24">
                 <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">
-                    <a href="https://store.chorosia.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:underline-offset-2 hover:decoration-1">Visit our Merch Store</a>
+                    <a
+                        href="https://store.chorosia.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="hover:underline hover:underline-offset-2 hover:decoration-1"
+                    >
+                        Visit our Merch Store
+                    </a>
                 </h2>
                 <div class="merch">
                     <MerchButton1 />
@@ -73,6 +67,19 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
                     <Button href="https://store.chorosia.com" target="_blank" rel="noopener noreferrer">
                         See More in Store
                     </Button>
+                </div>
+            </div>
+        )
+    }
+    {
+        featuredPosts?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">News and Blog</h2>
+                {featuredPosts.map((post) => (
+                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+                <div class="mt-12 sm:mt-16">
+                    <Button href="/blog">View More</Button>
                 </div>
             </div>
         )
