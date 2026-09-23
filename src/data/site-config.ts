@@ -117,7 +117,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         //   title: 'Chorosia',
-        text: "Is it progressive sludge? Is it death/doom? It's quite unclear what genre niche we belong to but it sure is heavy. Think caveman riffs, but the caveman has just become self-aware. We play the music we want to hear. Iommosphere is where we dwell.",
+        text: "Is it progressive sludge? Is it death/doom? It's unclear what genre niche we belong to but it sure is heavy. Think caveman riffs, but the caveman has just become self-aware. We play the music we want to hear. Iommosphere is where we dwell.",
         image: {
             src: '/Website-Hero.webp',
             alt: 'Chorosia Live Shot 2025'

@@ -12,7 +12,7 @@ const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
     image={{ src: '/07_Chorosia_by_Martin_Ramisu_2023.jpg', alt: 'Chorosia' }}
     showHeader={false}
 >
-    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Releases</h1>
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Albums</h1>
 
     <div class="flex flex-col gap-8">
         {projects.map((project) => {

@@ -1,1 +1,17 @@
-{"users":{"antop":{"chorosia.com":{"public":{}}},"anto":{"chorosia.com":{"public":{"images":{}}}}},"public":{}}
+{
+  "public": {},
+  "users": {
+    "anto": {
+      "chorosia.com": {
+        "public": {
+          "images": {}
+        }
+      }
+    },
+    "antop": {
+      "chorosia.com": {
+        "public": {}
+      }
+    }
+  }
+}

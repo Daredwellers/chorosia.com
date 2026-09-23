@@ -2,7 +2,7 @@
 const artistId = '9547889'; // Replace with your Songkick artist ID
 ---
 
-<div class="tourbox-container bg-muted text-main p-6 rounded-lg">
+<div class="tourbox-container bg-muted text-main p-6 rounded-lg" id="songkick-container">
     <a
         href={`https://www.songkick.com/artists/${artistId}`}
         class="songkick-widget"
@@ -20,5 +20,38 @@ const artistId = '9547889'; // Replace with your Songkick artist ID
         data-remind-me="off"
         style="display: none;"></a>
 
+    <p id="songkick-no-dates" style="display: none;" class="text-muted italic">
+        No live dates announced. We're probably writing riffs.
+    </p>
+
     <script src={`//widget-app.songkick.com/injector/${artistId}`}></script>
 </div>
+
+<script>
+    const container = document.getElementById('songkick-container');
+    const fallback = document.getElementById('songkick-no-dates');
+
+    if (container && fallback) {
+        let mutationFired = false;
+
+        const observer = new MutationObserver(() => {
+            mutationFired = true;
+            // Give the widget a moment to finish rendering all its children
+            setTimeout(() => {
+                const hasEvents = container.querySelectorAll('li').length > 0;
+                fallback.style.display = hasEvents ? 'none' : 'block';
+                observer.disconnect();
+            }, 500);
+        });
+
+        observer.observe(container, { childList: true, subtree: true });
+
+        // Hard timeout: if the widget never mutates the DOM (e.g. blocked), still show fallback
+        setTimeout(() => {
+            if (!mutationFired) {
+                fallback.style.display = 'block';
+                observer.disconnect();
+            }
+        }, 6000);
+    }
+</script>
